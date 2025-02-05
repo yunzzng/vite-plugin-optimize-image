@@ -1,4 +1,4 @@
-# vite-plugin-optimize-images
+# vite-plugin-optimize-image
 
 🚀 A Vite plugin that automatically converts `.jpg`, `.jpeg`, and `.png` image references to `.webp` format in both source code and built files, but only applies in production mode. Now supports configurable output directory!
 
@@ -13,13 +13,13 @@
 ## 📞 Installation
 
 ```sh
-npm install vite-plugin-optimize-images --save-dev
+npm install vite-plugin-optimize-image --save-dev
 ```
 
 or
 
 ```sh
-yarn add vite-plugin-optimize-images -D
+yarn add vite-plugin-optimize-image -D
 ```
 
 ## 🚀 Usage
@@ -30,7 +30,7 @@ Add the plugin to your Vite configuration:
 
 ```ts
 import { defineConfig } from "vite";
-import optimizeImagePlugin from "vite-plugin-optimize-images";
+import optimizeImagePlugin from "vite-plugin-optimize-image";
 
 export default defineConfig({
   plugins: [optimizeImagePlugin()],
