@@ -1,0 +1,1 @@
+export const imageFileRegex = /\.(png|jpe?g)/g;
